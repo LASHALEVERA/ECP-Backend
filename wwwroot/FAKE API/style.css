@@ -1,0 +1,25 @@
+*{margin: 7px;
+padding: 3px;}
+
+section {display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+    background-color: rgb(241, 156, 38);
+}
+
+img {display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 200px;
+}
+
+.id {display: block;
+}
+p,.card{display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h5{text-align: center;}
